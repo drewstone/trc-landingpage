@@ -44,9 +44,17 @@ body {
 }
 
 .landing-input {
-  padding-top: 150px;
+  padding-top: 15
 }
 
 .main-txt {
   margin: 10px;
+}
+
+.section.ui {
+  padding: 50px;
+}
+
+.webui {
+  width: 1000px;
 }
