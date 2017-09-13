@@ -1,0 +1,52 @@
+body {
+  font-family: "Proxima Nova";
+}
+.header-image {
+  position: relative;
+}
+
+.bgd-animation {
+  position: absolute;
+}
+
+.hero-body {
+  background: white;
+}
+
+.is-outlined {
+  background-color:transparent;
+  color:#fff;
+}
+.hero-cta {
+  padding: 30px 0;
+}
+.panel-block.section p {
+  font-size: 17px;
+  line-height: 1.4;
+  color:#95A5A6;
+}
+
+.icon-block {
+  font-size:5em;
+}
+
+.logo img {
+  width:120px;
+}
+
+.nav-title {
+  font-size: 32px;
+  color: white;
+}
+
+.container.landing-page {
+  margin-bottom: 100px;
+}
+
+.landing-input {
+  padding-top: 150px;
+}
+
+.main-txt {
+  margin: 10px;
+}
