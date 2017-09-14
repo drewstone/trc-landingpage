@@ -44,17 +44,35 @@ body {
 }
 
 .landing-input {
-  padding-top: 15
+  padding-top: 100px;
 }
 
 .main-txt {
   margin: 10px;
 }
 
-.section.ui {
+.section {
   padding: 50px;
 }
 
-.webui {
+.section-one {
+  margin-bottom: 100px;
+}
+
+.section-two {
+  margin-bottom: 100px;
+}
+
+#webui-fig {
   width: 1000px;
+  border: 0;
+}
+
+.info-box {
+  padding: 10px;
+}
+
+.section {
+  background-color: white;
+  padding: 100px;
 }
