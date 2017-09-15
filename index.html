@@ -1,15 +1,31 @@
 ---
 layout: default
+title: Truecoin
+landingHeader: Answer your tough questions.
+landingSub: Decentralized, crowdsourced predictions powered by Ethereum
+landingSubmitText: Submit your email to stay updated!
+landingBtnText: Subscribe
+contentTitle1: Crowdsource answers to subjective questions
+content1: >
+  Truecoin enables anyone to get honest predictions of interesting and otherwise unanswerable questions such as how to price, review, and compare products.
+contentTitle2: Get paid to provide your predictions
+content2: >
+  Truecoin rewards predictors who participate using an innovative cryptocurrency (TRC). The currency facilitates the creation of new questions on the Truecoin platform.
+contentTitle3: Help grow a public collection of truthful, human-generated datasets
+content3: >
+  Each prediction settles publicly on the Ethereum blockchain. With that, we intend to curate truthful human-generated datasets for advanced artificial intelligence applications involving reputation, recognition, and more.
+contentTitle4: Team
+content4: Drew Stone
 ---
 
-<section class="hero is-primary is-fullheight header-image">
-	<canvas class="bgd-animation" id="background"></canvas>
+<section class="hero is-fullheight header-image">
+  <canvas class="bgd-animation" id="background"></canvas>
   <div class="hero-head">
     <header class="nav">
       <div class="container">
         <div class="nav-left">
           <a class="nav-item" href="../index.html">
-            <h1 class="nav-title">Truecoin</h1>
+            <p class="nav-title">{{ page.title }}</p>
           </a>
         </div>
         <span class="nav-toggle">
@@ -19,7 +35,7 @@ layout: default
         </span>
         <div class="nav-right nav-menu">
           <span class="nav-item">
-            <a class="button is-info is-outlined is-inverted">
+            <a class="button is-info is-outlined is-inverted" disabled>
               <span class="icon">
                 <i class="fa fa-code"></i>
               </span>
@@ -34,19 +50,13 @@ layout: default
     <div class="container landing-page">
       <div class="columns">
         <div class="column has-text-centered">
-          <h1 class="title is-1 main-txt">
-            Answer your tough questions.
-          </h1>
-          <h2 class="subtitle is-4">
-            Decentralized, crowdsourced predictions powered by Ethereum
-          </h2>
+          <p class="title is-1 main-txt">{{ page.landingHeader }}</p>
+          <p class="subtitle is-4">{{ page.landingSub }}</p>
         </div>
       </div>
       <div class="columns is-centered">
         <div class="column is-half is-narrow is-centered landing-input"> 
-          <h1 class="subtitle is-5 has-text-centered">
-            Submit your email to stay updated!
-          </h1>    
+          <p class="subtitle is-5 has-text-centered">{{ page.landingSubmitText}}</p>
           <div class="field has-addons has-addons-centered">          
             <div class="control has-icons-left has-icons-right">
               <input class="input is-medium" type="email" placeholder="Email">
@@ -58,72 +68,79 @@ layout: default
               </span>
             </div>
             <div class="control">
-              <a class="button is-light is-outlined is-medium">
-                Subscribe
-              </a>
+              <a class="button is-light is-outlined is-medium">{{ page.landingBtnText }}</a>
             </div>
           </div>
         </div>
       </div>
   </div>
 </section>
-<section class="section ui section-one">
-  <div class="container">
-    <div class="columns is-desktop ">
+<section class="section">
+  <div class="container cnt-section">
+    <div class="columns is-vcentered">
       <div class="column is-third">
-        <h1 class="title is-2 info-box">Crowdsource answers to subjective questions</h1>
-        <h1 class="subtitle info-box">
-          Truecoin enables anyone to get honest predictions of interesting and otherwise unanswerable questions such as how to price, review, and compare products.
-        </h1>
+        <p class="title is-3">{{ page.contentTitle1 }}</p>
+        <p class="subtitle is-6">{{ page.content1 }}</p>
       </div>
       <div class="column is-two-thirds">
-        <img src="assets/images/webui-fig.png" alt="">
+        <div>
+          
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section class="section ui section-two">
-  <div class="container">
-    <div class="columns is-desktop is-vcentered">
-      <div class="column is-half">
+<hr>
+<section class="section">
+  <div class="container cnt-section">
+    <div class="columns is-vcentered">
+      <div class="column is-two-thirds">
 
       </div>
-      <div class="column is-half">
-        <h1 class="title is-2 info-box">Get paid to provide your predictions</h1>
-        <h1 class="subtitle info-box">
-          Truecoin rewards predictors who participate using an innovative cryptocurrency (<strong>TRC</strong>). The currency facilitates the creation of new questions on the Truecoin platform.
-        </h1>
+      <div class="column is-third">
+        <p class="title is-3">{{ page.contentTitle2 }}</p>
+        <p class="subtitle is-6">{{ page.content2 }}</p>
       </div>
     </div>
   </div>
 </section>
-<section class="section ui section-one">
-  <div class="container">
-    <div class="columns is-desktop ">
-      <div class="column is-half">
-        <h1 class="title is-2 info-box">Help grow a public collection of truthful, human-generated datasets</h1>
-        <h1 class="subtitle info-box">
-          Each prediction settles publicly on the Ethereum blockchain. With that, we intend to curate truthful human-generated datasets for advanced artificial intelligence applications involving reputation, recognition, and more. 
-        </h1>
+<hr>
+<section class="section">
+  <div class="container cnt-section">
+    <div class="columns is-vcentered ">
+      <div class="column is-third">
+        <p class="title is-3">{{ page.contentTitle3 }}</p>
+        <p class="subtitle is-6">{{ page.content3 }}</p>
       </div>
-      <div class="column is-half">
+      <div class="column is-two-third">
 
       </div>
     </div>
   </div>
 </section>
-
-<footer class="footer">
+<section class="section hero is-dark">
+  <div class="container cnt-section">
+    <div class="columns is-vcentered ">
+      <div class="column has-text-centered">
+        <p class="title is-1">{{ page.contentTitle4 }}</p>
+        <p class="subtitle is-6">{{ page.content4 }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer hero is-dark">
   <div class="container">
-    <div class="has-text-centered">
-      <p>
-        <strong>Copyright 2017</strong> - <a href="https://github.com/drewstone">Truecoin LLC</a>.
-      </p>
-      <p>
-        <a class="icon" href="https://github.com/drewstone">
-          <i class="fa fa-github"></i>
-        </a>
-      </p>
+    <div class="columns is-vcentered has-text-centered">
+      <div class="column">
+        <p>
+          <strong>Copyright 2017</strong> - <a href="https://github.com/drewstone">Truecoin LLC</a>.
+        </p>
+        <p>
+          <a class="icon" href="https://github.com/drewstone">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </footer>
