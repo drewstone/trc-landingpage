@@ -1,5 +1,4 @@
 body {
-  font-family: "Proxima Nova";
   color: black;
 }
 
@@ -59,14 +58,7 @@ a {
 
 .cnt-section {
   margin-bottom: 100px;
-}
-
-.cnt-section .columns {
-  padding: 75px;
-}
-
-.cnt-section p {
-  padding: 5px;
+  padding: 5%;
 }
 
 #webui-fig {
