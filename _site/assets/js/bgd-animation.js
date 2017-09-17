@@ -16,8 +16,9 @@ window.addEventListener("load", function() {
       }, lightness: {
         min: 50,
         max: 60
-      } }, bokeh: {
-        count: 20,
+      } },
+      bokeh: {
+        count: 40,
         size: {
           min: 0.01,
           max: 0.03
@@ -43,7 +44,7 @@ window.addEventListener("load", function() {
     force: false,
     resolution: 0.5,
     bokeh: {
-      count: 6
+      count: 10
     }
   };
   //buffers
